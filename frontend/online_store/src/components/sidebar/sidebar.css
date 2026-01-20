@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+#menu{
+  position: fixed;
+  top: 10vh;
+  left: 0;
+  width: 5%;
+  height: calc(100vh - 10vh);
+  background-color: rgba(183, 168, 40, 0.87);;
+}
+
+.menu-button{
+  height: 25%;
+  width: 100%;
+  background-color: rgba(183, 168, 40, 0.87);
+  color: black;
+  border: none;
+}
+
+button:hover{
+  background-color: rgba(156, 140, 0, 0.87);
+  cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.card_product{
+  height: 52vh;
+  width: 30vh;
+  background-color: rgb(173, 173, 173);
+  border: 3px solid blue;
+  color: black;
+  padding: 5vh;
+  border-radius: 5px;
+  margin: 7vh;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0 3px 10px rgba(0,0,0, 0.7);
+}
+
+.card_product:hover{
+  background-color: rgb(131, 131, 131);
+  border: 3px solid darkblue;
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card_product > img{
+  width: 180px;
+  height: 180px;
+  margin-bottom: 1vh;
+}
+
+.card_product > span{
+  font-size: 20px;
+}
+
+.card_product > button{
+  padding: 2vh;
+  margin-top: 3vh;
+}

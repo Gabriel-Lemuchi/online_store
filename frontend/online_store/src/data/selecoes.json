@@ -1,0 +1,44 @@
+[
+  {
+    "id": "13",
+    "name": "Camisa da Seleção Brasileira II 2026",
+    "preco": "R$ 199.99",
+    "imagem": "/images/bra_shirt.jpg",
+    "descriçao": "Camisa azul do Brasil da temporada de 2026"
+  },
+  {
+    "id": "14",
+    "name": "Camisa da Seleção Argentina 2026",
+    "preco": "R$ 199.99",
+    "imagem": "/images/arg_shirt.jpg",
+    "descriçao": "Camisa da Argentina listrada da temporada de 2026"
+  },
+  {
+    "id": "15",
+    "name": "Camisa da Seleção França II 2026",
+    "preco": "R$ 199.99",
+    "imagem": "/images/fra_shirt.jpg",
+    "descriçao": "Camisa da França branca da temporada de 2026"
+  },
+  {
+    "id": "16",
+    "name": "Camisa da Seleção Alemanha 2026",
+    "preco": "R$ 199.99",
+    "imagem": "/images/ale_shirt.jpg",
+    "descriçao": "Camisa da Alemanha branca da temporada de 2026"
+  },
+  {
+    "id": "17",
+    "name": "Camisa da Seleção Portugal 2026",
+    "preco": "R$ 199.99",
+    "imagem": "/images/por_shirt.jpg",
+    "descriçao": "Camisa de Portugal vermelha da temporada de 2026"
+  },
+  {
+    "id": "18",
+    "name": "Camisa da Seleção Inglaterra 2026",
+    "preco": "R$ 199.99",
+    "imagem": "/images/england_shirt.jpg",
+    "descriçao": "Camisa da Inglaterra branca da temporada de 2026"
+  }
+]

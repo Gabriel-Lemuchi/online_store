@@ -1,0 +1,12 @@
+.produtos{
+  text-align: center;
+}
+
+h2{
+  margin-top: 1vh;
+}
+
+.lista-produtos{
+  display: flex;
+  flex-wrap: wrap;
+}

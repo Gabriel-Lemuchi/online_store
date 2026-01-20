@@ -1,0 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  height: 8vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  width: 100%;
+  background-color: blue;
+  color: rgb(183, 169, 40);
+  display: flex;
+  text-align: center;
+  top: 0;
+}
+
+h1{
+  margin-left: 6vh;
+}
+
+#hamburguer_button{
+  background-color: blue;
+  border-radius: 5px;
+  margin-left: 5vh;
+  padding: 1vh;
+  border: none;
+}
+
+#hamburguer_button:hover{
+  background-color: darkblue;
+  cursor: pointer;
+}
+
+#carrinho_button{
+  background-color: blue;
+  border-radius: 5px;
+  float: right;
+  padding: 1vh;
+  border: none;
+  margin-left: 162vh;
+}
+
+#carrinho_button:hover{
+  background-color: darkblue;
+  cursor: pointer;
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "7",
+    "name": "Camisa do Liverpool III 2025/26",
+    "preco": "R$ 199.99",
+    "imagem": "/images/liverpool_shirt.jpg",
+    "descriçao": "Camisa do Liverpool III da temporada 2025/26"
+  },
+  {
+    "id": "8",
+    "name": "Camisa do Real Madrid 2025/26",
+    "preco": "R$ 199.99",
+    "imagem": "/images/real_shirt.jpg",
+    "descriçao": "Camisa do Real Madrid branca da temporada 2025/26"
+  },
+  {
+    "id": "9",
+    "name": "Camisa do Barcelona 2025/26",
+    "preco": "R$ 199.99",
+    "imagem": "/images/barcelona_shirt.jpg",
+    "descriçao": "Camisa do Barcelona azul e grená da temporada 2025/26"
+  },
+  {
+    "id": "10",
+    "name": "Camisa do Manchester City 2025/26",
+    "preco": "R$ 199.99",
+    "imagem": "/images/mancity_shirt.jpg",
+    "descriçao": "Camisa do Manchester City titular da temporada 2025/26"
+  },
+  {
+    "id": "11",
+    "name": "Camisa do Bayern de Munique 2025/26",
+    "preco": "R$ 199.99",
+    "imagem": "/images/bayern_shirt.jpg",
+    "descriçao": "Camisa do Bayern de Munique vermelha da temporada 2025/26"
+  },
+  {
+    "id": "12",
+    "name": "Camisa do PSG 2025/26",
+    "preco": "R$ 199.99",
+    "imagem": "/images/PSG_shirt.jpg",
+    "descriçao": "Camisa do PSG titular da temporada 2025/26"
+  }
+]
