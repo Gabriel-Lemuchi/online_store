@@ -2,42 +2,42 @@
   {
     "id": "19",
     "name": "Camisa da Seleção Brasileira 1998",
-    "preco": "R$ 199.99",
+    "preco": 199.99,
     "imagem": "/images/bra_retro.jpg",
     "descriçao": "Camisa do Brasil da Copa do Mundo de 1998"
   },
   {
     "id": "20",
     "name": "Camisa da Seleção Brasileira 2002",
-    "preco": "R$ 199.99",
+    "preco": 199.99,
     "imagem": "/images/bra_2002_retro.jpg",
     "descriçao": "Camisa do Brasil da Copa do Mundo de 2002"
   },
   {
     "id": "21",
     "name": "Camisa do Santos 2011",
-    "preco": "R$ 199.99",
+    "preco": 199.99,
     "imagem": "/images/santos_retro.jpg",
     "descriçao": "Camisa do Santos da era Neymar de 2011"
   },
   {
     "id": "22",
     "name": "Camisa do Vasco 2000",
-    "preco": "R$ 199.99",
+    "preco": 199.99,
     "imagem": "/images/vasco_retro.jpg",
     "descriçao": "Camisa do Vasco campeão de 2000"
   },
   {
     "id": "23",
     "name": "Camisa da Internazionale 1998",
-    "preco": "R$ 199.99",
+    "preco": 199.99,
     "imagem": "/images/internazionale_retro.jpg",
     "descriçao": "Camisa retrô da Internazionale"
   },
   {
     "id": "24",
     "name": "Camisa da Fiorentina 1998",
-    "preco": "R$ 199.99",
+    "preco": 199.99,
     "imagem": "/images/fiorentina_retro.jpg",
     "descriçao": "Camisa da Fiorentina roxa de 1998"
   }

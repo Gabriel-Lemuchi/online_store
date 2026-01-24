@@ -2,42 +2,42 @@
   {
     "id": "1",
     "name": "Camisa do Cruzeiro III 2025",
-    "preco": "R$ 199.99",
+    "preco": 199.99,
     "imagem": "/images/cruzeiro_shirt.jpg",
     "descriçao": "Camisa do Cruzeiro azul da temporada de 2025"
   },
   {
     "id": "2",
     "name": "Camisa do Flamengo 2025",
-    "preco": "R$ 199.99",
+    "preco": 199.99,
     "imagem": "/images/flamengo_shirt.jpg",
     "descriçao": "Camisa do Flamengo titular da temporada de 2025"
   },
   {
     "id": "3",
     "name": "Camisa do Palmeiras 2025",
-    "preco": "R$ 199.99",
+    "preco": 199.99,
     "imagem": "/images/palmeiras_shirt.jpg",
     "descriçao": "Camisa do Palmeiras verde da temporada de 2025"
   },
   {
     "id": "4",
     "name": "Camisa do Corinthians 2025",
-    "preco": "R$ 199.99",
+    "preco": 199.99,
     "imagem": "/images/corinthians_shirt.jpg",
     "descriçao": "Camisa do Corinthians titular da temporada de 2025"
   },
   {
     "id": "5",
     "name": "Camisa do São Paulo 2025",
-    "preco": "R$ 199.99",
+    "preco": 199.99,
     "imagem": "/images/saopaulo_shirt.jpg",
     "descriçao": "Camisa do São Paulo tricolor da temporada de 2025"
   },
   {
     "id": "6",
     "name": "Camisa do Atlético-MG III 2025",
-    "preco": "R$ 199.99",
+    "preco": 199.99,
     "imagem": "/images/galo_shirt.jpg",
     "descriçao": "Camisa do Atlético Mineiro titular da temporada de 2025"
   }

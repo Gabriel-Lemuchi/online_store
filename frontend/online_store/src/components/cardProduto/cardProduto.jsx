@@ -11,7 +11,7 @@ const CardProduto = ({ produto }) => {
       <div className="card_product" onClick={() => navigate(`/produto/${produto.id}`)}>
         <img src={produto.imagem} alt={produto.name} />
         <h3>{produto.name}</h3>
-        <span>{produto.preco}</span>
+        <span>R$ {produto.preco}</span>
         <button>Adicionar ao carrinho</button>
       </div>
     </>
