@@ -1,7 +1,11 @@
 import React from "react";
 import "./cart.css";
+import { useNavigate } from "react-router-dom";
 
 const Cart = ({ cartOpen, cartItems, increase, decrease, total }) => {
+
+  const navigate = useNavigate();
+
   if (!cartOpen) return null;
 
   return (
@@ -36,7 +40,7 @@ const Cart = ({ cartOpen, cartItems, increase, decrease, total }) => {
       {cartItems.length > 0 && (
         <div className="cart-total">
           <h3>Total: R$ {total.toFixed(2)}</h3>
-          <button className="checkout-btn">Finalizar compra</button>
+          <button className="checkout-btn" onClick={() => navigate(`/signup`)}>Finalizar compra</button>
         </div>
       )}
     </aside>

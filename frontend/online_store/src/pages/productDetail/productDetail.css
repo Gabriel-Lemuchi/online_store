@@ -10,7 +10,7 @@
 }
 
 #details{
-  height: 78vh;
+  height: 84vh;
   background-color: grey;
   color: black;
   text-align: center;
@@ -60,7 +60,7 @@
   color: black;
   justify-content: center;
   padding: 2vh;
-  height: 14vh;
+  height: 18vh;
   margin-top: 12vh;
   border-radius: 5px;
   box-shadow: 0 3px 9px rgba(0,0,0, 0.7);
