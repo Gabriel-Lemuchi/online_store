@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Routes, Route, useLocation} from 'react-router-dom';
+import PrivateRoute from "./routes/PrivateRoute";
 import Header from './components/header/header';
 import Sidebar from './components/sidebar/sidebar';
 import Cart from './components/cart/cart';
@@ -11,6 +12,7 @@ import Retro from './pages/retro/retro';
 import ProductDetail from './pages/productDetail/productDetail';
 import Login from './pages/login/login';
 import Signup from './pages/signup/signup';
+import Payment from "./pages/payment/payment";
 import './App.css';
 
 function App() {
@@ -20,7 +22,7 @@ function App() {
 
   const location = useLocation();
 
-  const hideHeaderRoutes = ['/login', '/signup'];
+  const hideHeaderRoutes = ['/login', '/signup', '/payment'];
   const hideHeader = hideHeaderRoutes.includes(location.pathname);
 
   function toggleMenu() {
@@ -109,8 +111,9 @@ function App() {
     />
     <Route path="/login" element={<Login />} />
     <Route path="/signup" element={<Signup />} />
-  </Routes>
-</>
+    <Route path="/payment" element={<PrivateRoute><Payment /></PrivateRoute>} />
+    </Routes>
+  </>
   );
 }
 

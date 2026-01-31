@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import api from "../../services/api";
 import "./signup.css";
 
 const Signup = () => {
@@ -7,14 +8,24 @@ const Signup = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  function handleSubmit(e) {
+  const navigate = useNavigate();
+
+  async function handleSubmit(e) {
     e.preventDefault();
 
-    console.log({
-      name,
-      email,
-      password
-    });
+    try {
+      await api.post("/auth/signup", {
+        name,
+        email,
+        password
+      });
+
+      alert("Conta criada com sucesso!");
+      navigate("/login");
+
+    } catch (err) {
+      alert(err.response?.data?.message || "Erro ao criar conta");
+    }
   }
 
   return (

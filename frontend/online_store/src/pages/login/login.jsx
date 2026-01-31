@@ -1,14 +1,37 @@
 import React, { useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
+import api from "../../services/api";
 import "./login.css";
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  function handleSubmit(e) {
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const from = location.state?.from?.pathname || "/payment";
+
+  async function handleSubmit(e) {
     e.preventDefault();
-    console.log("Email:", email);
-    console.log("Password:", password);
+
+    try {
+      const response = await api.post("/auth/login", {
+        email,
+        password
+      });
+
+      const { token, user } = response.data;
+
+      localStorage.setItem("token", token);
+      localStorage.setItem("user", JSON.stringify(user));
+
+      navigate(from, { replace: true });
+
+      alert("Login realizado com sucesso!");
+    } catch (err) {
+      alert(err.response?.data?.message || "Erro ao fazer login");
+    }
   }
 
   return (
