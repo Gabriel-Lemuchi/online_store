@@ -33,7 +33,7 @@ const ProductDetail = ({ addToCart }) => {
   return (
     <div className="product-detail">
       <div id="details">
-        <img src={produto.imagem} alt={produto.name} width="420px" />
+        <img src={produto.imagem} alt={produto.name} width="320px" />
         <h1>{produto.name}</h1>
         <p>{produto.descriçao}</p>
         <strong>R$ {produto.preco.toFixed(2)}</strong>
